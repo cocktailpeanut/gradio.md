@@ -2,6 +2,8 @@
 
 Node.js CLI to crawl the Gradio GitHub repo, collect markdown files under the guides folder, and aggregate them into a single `gradio.md` file.
 
+![gradiomd.gif](gradiomd.gif)
+
 ## Usage
 
 ### Basic
