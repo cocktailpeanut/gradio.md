@@ -4,16 +4,22 @@ Node.js CLI to crawl the Gradio GitHub repo, collect markdown files under the gu
 
 ## Usage
 
+### Basic
+
+generate a `gradio.md` file in the current folder:
+
 ```bash
 npx gradio.md
 ```
 
-Output path (directory or file):
+### Advanced
+
+Generate to custom output path (directory or file):
 
 ```bash
-npx gradio.md ./output
-npx gradio.md ./output/gradio.md
-npx gradio.md /absolute/path/to/gradio.md
+npx gradio.md ./output                      => generate a gradio.md in ./output
+npx gradio.md ./output/gradio.md            => generate ./output/gradio.md
+npx gradio.md /absolute/path/to/gradio.md   => generate /absolute/path/to/gradio.md
 ```
 
 Notes:
